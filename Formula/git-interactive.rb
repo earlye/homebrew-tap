@@ -2,16 +2,16 @@ class GitInteractive < Formula
   desc "Extensible interactive Git TUI"
   homepage "https://github.com/earlye/git-interactive"
   license "MIT"
-  version "0.1.11+91250c3"
+  version "0.1.12+3e4d2e1"
 
   on_macos do
     on_arm do
-      url "https://github.com/earlye/git-interactive/releases/download/v0.1.11+91250c3/git-interactive-darwin-arm64-v0.1.11+91250c3.tar.gz"
-      sha256 "cf4ae4c31eb5faf2b5bed34d3bc51cc6208d2a877b20c2b1d1774e3fe81bd25f"
+      url "https://github.com/earlye/git-interactive/releases/download/v0.1.12+3e4d2e1/git-interactive-darwin-arm64-v0.1.12+3e4d2e1.tar.gz"
+      sha256 "3b324628bee37cfe5dd4639615d8ff614dbcf5804a6b0f412e340e3b9dc68ff0"
     end
     on_intel do
-      url "https://github.com/earlye/git-interactive/releases/download/v0.1.11+91250c3/git-interactive-darwin-x86_64-v0.1.11+91250c3.tar.gz"
-      sha256 "7a38462cb2b30f4cfa98f3970fb9603fbf9b99ed056d786a17bd76f04138988a"
+      url "https://github.com/earlye/git-interactive/releases/download/v0.1.12+3e4d2e1/git-interactive-darwin-x86_64-v0.1.12+3e4d2e1.tar.gz"
+      sha256 "eec0ca5ed57a6929b8f780aa163c6c3c1a9c0848e3979a10dc7180faa22a7d5b"
     end
   end
 
